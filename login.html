@@ -1,0 +1,53 @@
+<html>
+<head>
+  <title>Login</title>
+  <style>
+h1 {text-align:center;}
+h2 {text-align:center;}
+p {text-align:center;}
+form {
+  text-align: center;
+}
+
+button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  width:110px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input{
+  width: 34%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+</style>
+  </head>
+  <body onload="getStoredProducts();">
+  <h1>Welcome To E-Cart !</h1>
+  <br>
+  <br>
+  <br>
+  <br>
+  <form>
+  <h2>Enter Username</h2>
+  <input id="username" type="text" placeholder="username" >
+  <br>
+  <br>
+  <h2>Enter Password</h2>
+  <input id="password" type="password" placeholder="password">
+  <br>
+  <br>
+  <br>
+  </form>
+<script src="login.js" type="text/javascript"></script>
+<button id="login" onclick="login()" style="margin-left:39%">Login</button>
+<button id="signup" onclick="signup()" style="margin-left:3%">Signup</button>
+
+  </body>
+</html>
